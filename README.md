@@ -1,6 +1,6 @@
 # Coindeets - Crypto Details Tool
 Coindeets is an easy-to-use CLI tool that is used to get simple details about crypto-currencies and digital assets. 
-The tool can be downloaded from [NPM Link](https://npmjs.org)
+The tool can be downloaded here :link: : [Coindeets](https://www.npmjs.com/package/coindeets)
 
 The tool works with an endpoint from the [CoinMarket](https://coinmarketcap.com) API :link: : https://coinmarketcap.com/api/
 
@@ -15,6 +15,18 @@ This means that each user would have to get an API key in order to use Coindeets
 ```
 Coin: BTC (Bitcoin) | Price: $17,188.73 | Rank: 1
 ```
+
+## How to use:
+1. Download the package
+```
+npm i -g coindeets
+```
+2. Run the tool directly or with the help option to see the full details of the application
+```
+coindeets -h
+```
+3. Follow the commands outlisted above, as required.
+
 
 ## Commands:
 - **#Help & Full Commands**
@@ -41,18 +53,6 @@ coindeets check price --curr=NGN
 coindeets check price --coin=BTC --curr=EUR
 ```
 Without the options, the application will return the first 10 crypto assests, sorted by the official CoinMarketCap rank as at the time and in USD.
-
-
-## How to use:
-1. Download the package
-```
-npm i coindeets
-```
-2. Run the tool directly or with the help option to see the full details of the application
-```
-coindeets -h
-```
-3. Follow the commands outlisted above, as required.
 
 
 ## Technologies & Platforms used:
