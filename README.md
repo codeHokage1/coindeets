@@ -17,18 +17,20 @@ Coin: BTC (Bitcoin) | Price: $17,188.73 | Rank: 1
 ```
 
 ## How to use:
-1. Download the package
+1. Download the package (& use directly)
 ```
-npm i -g coindeets
+npx coindeets
 ```
 2. Run the tool directly or with the help option to see the full details of the application
 ```
-coindeets -h
+npx coindeets -h
 ```
-3. Follow the commands outlisted above, as required.
+3. Follow the commands outlisted below, as required.
 
 
 ## Commands:
+:warning: N.B: If you would want to run the tool directly from your Command Line Interface, kindly add **npx** before any of these commands
+
 - **#Help & Full Commands**
 ```
 coindeets -h
