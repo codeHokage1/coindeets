@@ -30,7 +30,7 @@ coindeets key remove
 ```
 - **#Crypto Details Commands**
 ```
-coindeets check price[options]
+coindeets check price [options]
 ```
 The options are optional and can accept two key-value pairs: *--coin* and *--curr*. This allows to check details for one or more specific cryptocurrencies and to convert their fiat values to a specific currency, respectively.
 For example,
@@ -40,7 +40,7 @@ coindeets check price --coin=BTC,USDT,BNB
 coindeets check price --curr=NGN 
 coindeets check price --coin=BTC --curr=EUR
 ```
-Without the options, the application will return the first 10 crypto assests, sorted by rank and in USD.
+Without the options, the application will return the first 10 crypto assests, sorted by the official CoinMarketCap rank as at the time and in USD.
 
 
 ## How to use:
